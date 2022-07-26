@@ -8,6 +8,8 @@ Creates a text file </br>
 Add texts to the file </br>
 Rename the text file </br>
 Add texts containing the new name in the file </br>
+Creates new variable </br>
+Adds variable and its value to text </br>
 
 Commands used: </br>
 mkdir (makes new folder) </br>
