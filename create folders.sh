@@ -1,13 +1,12 @@
-#!/bin/bash
+#!/bash
+
+mkdir newfolder
+cd newfolder
+touch newtextfile.txt
+echo "This is a new text file. " >> newtextfile.txt
+echo "Name of text file: newtextfile.txt" >> newtextfile.txt
+read -p "Enter new name for file: " newname
+mv newtextfile.txt $newname.txt
+echo "New name of file is: $newname.txt"
 
 
-sudo mkdir /mnt/Disk_C
-echo "Created Disk_C folder"
-sudo mkdir /mnt/Disk_D
-echo "Created Disk_D folder"
-sudo mkdir /mnt/Disk_E
-echo "Created Disk_E folder"
-sudo mkdir /mnt/Dev_Edu
-echo "Created Dev_Edu folder"
-sudo mkdir /mnt/Disk_E_HDD2
-echo "Created Disk_E_HDD2 folder"
