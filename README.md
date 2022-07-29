@@ -18,3 +18,12 @@ touch (make new file with extension) </br>
 echo (prints in terminal, prints in specified file) </br>
 mv (moves file, used to rename) </br>
 
+
+# variable_loop.sh 
+Source directory</br>
+if fi </br>
+if else </br>
+while loop </br>
+until loop </br>
+for loop </br>
+
